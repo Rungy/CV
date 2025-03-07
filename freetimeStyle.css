@@ -1,0 +1,58 @@
+body{
+    background-color: #AC5354;
+}
+#NavigationUI{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.placeholder{
+    display: flex;
+    justify-content: center;
+}
+.NavItems{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 350px;
+    border-radius: 1000px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#BigLine{
+    width: 400px;
+    height: 5px;
+    background-color: white;
+    margin: auto;
+}
+#textcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.textitem{
+color: white;
+width: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.Line{
+    background-color: white;
+    width: 400px;
+    height: 3px;
+}

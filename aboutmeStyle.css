@@ -1,0 +1,46 @@
+body{
+    background-color: #AC5354;
+}
+#NavigationUI{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.NavItems{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#bild{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    display: block;
+    margin: auto;
+}
+#textcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.textitem{
+color: white;
+width: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.Line{
+    background-color: white;
+    width: 400px;
+    height: 3px;
+}
